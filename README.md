@@ -4,7 +4,7 @@ A simple PCB for the Raspberry Pi Pico with screw terminal headers (GPIOs, +3.3V
 
 ## Printed Circuit Board (PCB) :
 
-The schematic and PCB are made with [KiCad](https://www.kicad.org) version 9.
+As part of an educational project, the schematic and PCB are made with [KiCad](https://www.kicad.org) version 9 ([kicad](kicad/) folder).
 
 :bulb: All important parameters are stored in the schematic or PCB editors **text variables**.
 
