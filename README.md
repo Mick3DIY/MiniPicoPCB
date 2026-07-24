@@ -6,7 +6,7 @@ A simple PCB for the Raspberry Pi Pico with screw terminal headers (GPIOs, +3.3V
 
 As part of an educational project, the schematic and PCB are made with [KiCad](https://www.kicad.org) version 9 ([kicad](kicad/) folder).
 
-:bulb: All important parameters are stored in the schematic or PCB editors **text variables**.
+:bulb: All important parameters are stored in the schematic/PCB editors **text variables** (common project variables).
 
 ![Schematic view](assets/MiniPicoPCB_Schematic.png)
 
@@ -17,14 +17,14 @@ As part of an educational project, the schematic and PCB are made with [KiCad](h
 Thanks to [AISLER](https://aisler.net) PCB manufacturer :eu:
 
 Useful plugins for KiCad :
-* AISLER Push for KiCad : https://github.com/aislerhq
+* AISLER Push for KiCad : https://github.com/aislerhq (with AISLER repository to always get the latest updates)
 * Interactive HTML BOM : https://github.com/openscopeproject/InteractiveHtmlBom
 * Board2Pdf : https://gitlab.com/dennevi/Board2Pdf
 * Solarized Dark Theme : https://github.com/pointhi/kicad-color-schemes
 
 Thanks to "Jimmi Henry" for his 3D libraries (including this PCB Terminal Blocks)  in [GRABCAD Community](https://grabcad.com/jimmi.henry-1) in the [kicad/imports](kicad/imports) folder. 
 
-## Bill Of Materials (BOM) :
+## Bill Of Materials (BOM) :
 
 | Ref  | Qty | Value | Footprint | Description |
 | :---: | :---: | :--- | :--- | :--- |
