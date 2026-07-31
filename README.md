@@ -1,3 +1,7 @@
+<picture>
+    <img alt="MadeForRaspberryPiPico(forthebadge.com)" src="assets/made-for-raspberry-pi-pico.svg">
+</picture>
+
 # MiniPicoPCB
 
 A simple PCB for the Raspberry Pi Pico with screw terminal headers (GPIOs, +3.3V, GND) to experiment with students.
@@ -38,6 +42,8 @@ Thanks to "Jimmi Henry" for his 3D libraries (including this PCB Terminal Blocks
 ## Documentation :
 
 Raspberry Pi Pico : https://www.raspberrypi.com/products/raspberry-pi-pico/
+
+TE PCB terminal blocks : https://www.te.com/en/product-282834-5.html
 
 
 > [!NOTE]
