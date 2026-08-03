@@ -12,7 +12,11 @@ As part of an educational project, the schematic and PCB are made with [KiCad](h
 
 :bulb: All important parameters are stored in the schematic/PCB editors **text variables** (common project variables).
 
+## Schematic :
+
 ![Schematic view](assets/MiniPicoPCB_Schematic.png)
+
+## Printed Circuit Board (PCB) :
 
 ![PCB view](assets/MiniPicoPCB_PCB.png)
 
@@ -37,7 +41,8 @@ Thanks to "Jimmi Henry" for his 3D libraries (including this PCB Terminal Blocks
 
 ## TODO :
 
-* Add PDF files for the schematic and PCB to check dimensions
+- [ ] Add PDF files for the schematic and PCB to check dimensions
+- [ ] Add KiCad step file for the enclosure
 
 ## Documentation :
 
