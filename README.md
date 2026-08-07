@@ -41,8 +41,8 @@ Thanks to "Jimmi Henry" for his 3D libraries (including this PCB Terminal Blocks
 
 ## TODO :
 
-- [ ] Add PDF files for the schematic and PCB to check dimensions
-- [ ] Add KiCad step file for the enclosure
+- [x] Add PDF files for the schematic and PCB
+- [x] Add KiCad step file for the enclosure
 
 ## Documentation :
 
