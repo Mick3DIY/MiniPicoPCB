@@ -1,4 +1,14 @@
-v1.00 - 2026-07-22
+## v1.01 - 2026-09-21
+
+**Schematic** :
+
+Added MCU RP2040 limitations maximum current
+
+**PCB** :
+
+Added some silkscreen informations, round corners
+
+## v1.00 - 2026-07-22
 
 **KiCad** :
 

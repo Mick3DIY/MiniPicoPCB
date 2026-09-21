@@ -243,12 +243,7 @@
     "equivalence_files": []
   },
   "erc": {
-    "erc_exclusions": [
-      [
-        "lib_symbol_mismatch|1308100|927100|02e41e87-952a-472b-a9fd-6ab8c2a745b4|00000000-0000-0000-0000-000000000000|||",
-        ""
-      ]
-    ],
+    "erc_exclusions": [],
     "meta": {
       "version": 0
     },
@@ -675,9 +670,9 @@
     ]
   ],
   "text_variables": {
-    "PCB_VERSION": "V1.00",
+    "PCB_VERSION": "V1.01",
     "PROJECT_LINK": "Main project : https://github.com/Mick3DIY/MiniPicoPCB",
-    "SCHEMATIC_VERSION": "V1.00",
+    "SCHEMATIC_VERSION": "V1.01",
     "TITLE_NAME": "MiniPicoPCB"
   }
 }

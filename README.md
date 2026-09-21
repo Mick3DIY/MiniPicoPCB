@@ -20,6 +20,8 @@ As part of an educational project, the schematic and PCB are made with [KiCad](h
 
 ![PCB view](assets/MiniPicoPCB_PCB.png)
 
+## PCB 3D view :
+
 ![PCB 3D view](assets/MiniPicoPCB_3D.png)
 
 Thanks to [AISLER](https://aisler.net) PCB manufacturer :eu:
@@ -43,6 +45,7 @@ Thanks to "Jimmi Henry" for his 3D libraries (including this PCB Terminal Blocks
 
 - [x] Add PDF files for the schematic and PCB
 - [x] Add KiCad step file for the enclosure
+- [ ] Add more files and examples, any ideas ? :laughing:
 
 ## Documentation :
 
