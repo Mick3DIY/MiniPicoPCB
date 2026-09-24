@@ -32,6 +32,8 @@ Useful plugins for KiCad :
 * Board2Pdf : https://gitlab.com/dennevi/Board2Pdf
 * Solarized Dark Theme : https://github.com/pointhi/kicad-color-schemes
 
+Get a unique 10€ coupon code in <ins>your first order</ins> in [AISLER](https://aisler.net) with my referral code : `MakeInEurope-ECYPW` :heart:
+
 Thanks to "Jimmi Henry" for his 3D libraries (including this PCB Terminal Blocks)  in [GRABCAD Community](https://grabcad.com/jimmi.henry-1) in the [kicad/imports](kicad/imports) folder. 
 
 ## Bill Of Materials (BOM) :
