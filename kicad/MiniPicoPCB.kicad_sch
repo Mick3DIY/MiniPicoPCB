@@ -6,7 +6,7 @@
 	(paper "A4")
 	(title_block
 		(title "${TITLE_NAME}")
-		(date "2026-09-21")
+		(date "2026-10-06")
 		(rev "${SCHEMATIC_VERSION}")
 		(comment 2 "${PROJECT_LINK}")
 		(comment 3 "For Raspberry Pi Pico only")
@@ -1282,7 +1282,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "MCU_Module:RaspberryPi_Pico"
+		(symbol "MiniPicoPCB:RaspberryPi_Pico"
 			(pin_names
 				(offset 0.762)
 			)
@@ -3710,189 +3710,6 @@
 		(uuid "ffa7ef3b-d32c-4cf5-9264-2d62a1b33a9a")
 	)
 	(symbol
-		(lib_id "MCU_Module:RaspberryPi_Pico")
-		(at 130.81 92.71 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom no)
-		(on_board no)
-		(dnp no)
-		(uuid "02e41e87-952a-472b-a9fd-6ab8c2a745b4")
-		(property "Reference" "A1"
-			(at 123.19 53.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "RaspberryPi_Pico"
-			(at 123.19 55.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Module:RaspberryPi_Pico_Common_Unspecified"
-			(at 130.81 128.27 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://datasheets.raspberrypi.com/pico/pico-datasheet.pdf"
-			(at 130.81 130.81 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Versatile and inexpensive microcontroller module powered by RP2040 dual-core Arm Cortex-M0+ processor up to 133 MHz, 264kB SRAM, 2MB QSPI flash; also supports Raspberry Pi Pico 2"
-			(at 130.81 133.35 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "35"
-			(uuid "d538c859-54f5-47b3-957f-bd58b8708f20")
-		)
-		(pin "34"
-			(uuid "29cc58e3-acfb-44db-8e70-45f5cca4bfd6")
-		)
-		(pin "24"
-			(uuid "361fedd8-beb3-4e5e-b74a-a1c836013655")
-		)
-		(pin "13"
-			(uuid "6d5ae004-6fe6-4678-baf0-4c7aa043c23e")
-		)
-		(pin "15"
-			(uuid "3c8e990e-82e9-4359-8bb9-b485aa3ad536")
-		)
-		(pin "31"
-			(uuid "735d0907-2180-4ce5-ae26-d08857aae2d6")
-		)
-		(pin "11"
-			(uuid "3df0ff20-4989-4465-aa45-8894d0ab084d")
-		)
-		(pin "33"
-			(uuid "0277165d-142e-4da8-8021-8b0326696df2")
-		)
-		(pin "29"
-			(uuid "a54d35cc-ec02-4aaa-b76f-444618cbc9fa")
-		)
-		(pin "32"
-			(uuid "07d77f66-ef67-427e-8040-631c14267090")
-		)
-		(pin "18"
-			(uuid "566090aa-e946-4410-9b58-c43c0c2c2031")
-		)
-		(pin "40"
-			(uuid "37097af9-1657-4d51-a107-da0a22f13116")
-		)
-		(pin "19"
-			(uuid "c6f12c96-2805-4e68-be8b-0be429d1a381")
-		)
-		(pin "9"
-			(uuid "d0d3ba80-4f3c-4ad0-a2c4-3964bb236161")
-		)
-		(pin "17"
-			(uuid "9676704f-1fde-464d-8158-95bb4906fa83")
-		)
-		(pin "16"
-			(uuid "fdbf98a7-3bb7-476a-9095-772ddc2d112d")
-		)
-		(pin "22"
-			(uuid "fa4d4e94-30c1-4c87-840e-1e00d17fe776")
-		)
-		(pin "21"
-			(uuid "323a93d9-5640-4bba-abed-af96b8ae6c8c")
-		)
-		(pin "36"
-			(uuid "194a08a4-6c2f-431a-8133-8765e681dbef")
-		)
-		(pin "3"
-			(uuid "4f09df3a-4448-4956-8d96-cf1fca885eac")
-		)
-		(pin "2"
-			(uuid "49e70723-f7e9-4e16-95ec-a563b3825e16")
-		)
-		(pin "1"
-			(uuid "b6025b95-a1b1-4d72-b41c-2ebd288cbbbd")
-		)
-		(pin "37"
-			(uuid "87d0fb3e-288f-4b75-a1ed-6f589667c661")
-		)
-		(pin "23"
-			(uuid "75b9841c-88a1-414b-978b-414306ef71b0")
-		)
-		(pin "39"
-			(uuid "79a51120-785a-49fc-ad89-3da2d4d4af99")
-		)
-		(pin "38"
-			(uuid "d48bdfa0-9dff-4bde-8d92-a558c45aacfc")
-		)
-		(pin "20"
-			(uuid "b3c050c5-e1a3-4157-8eb0-4bac2e1f9160")
-		)
-		(pin "26"
-			(uuid "2a71da94-b90f-4494-9b47-a472f1b5c8d1")
-		)
-		(pin "5"
-			(uuid "e2e59cab-b704-4c02-9f32-eda02cf96fd5")
-		)
-		(pin "4"
-			(uuid "6470c956-cddb-4482-b87c-75541c843315")
-		)
-		(pin "6"
-			(uuid "a5e85e4f-27af-4d24-86f1-06945e444056")
-		)
-		(pin "7"
-			(uuid "2a8d69ff-2782-445b-bbf0-65affcd5e534")
-		)
-		(pin "14"
-			(uuid "8444cfa2-e31e-48dd-907f-5d6e15c746dc")
-		)
-		(pin "12"
-			(uuid "ee778f97-8fc4-412d-85d6-acfcc9a1a546")
-		)
-		(pin "10"
-			(uuid "63179f21-5ea5-4c9a-9a37-e0f68672ad57")
-		)
-		(pin "27"
-			(uuid "fab8bb71-7949-4350-97d1-573a559a12f7")
-		)
-		(pin "28"
-			(uuid "afd6433a-fe00-4dc8-939d-d7e58cc3cc7a")
-		)
-		(pin "25"
-			(uuid "ada9e005-0c60-4c46-ae41-e5976fd11799")
-		)
-		(pin "30"
-			(uuid "f947b346-ed46-4e62-8638-36c1d11f82aa")
-		)
-		(pin "8"
-			(uuid "0ccbf8ee-7582-496e-85cb-d2b8ac9a8037")
-		)
-		(instances
-			(project "MiniPicoPCB"
-				(path "/86644c21-3caa-4c6d-8c75-c0a1b6d5c30d"
-					(reference "A1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:PWR_FLAG")
 		(at 156.21 53.34 0)
 		(unit 1)
@@ -5134,6 +4951,188 @@
 			(project "MiniPicoPCB"
 				(path "/86644c21-3caa-4c6d-8c75-c0a1b6d5c30d"
 					(reference "J1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "MiniPicoPCB:RaspberryPi_Pico")
+		(at 130.81 92.71 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board no)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ce5bcc9e-04fc-41d1-a299-52597d166346")
+		(property "Reference" "A1"
+			(at 130.81 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "RaspberryPi_Pico"
+			(at 130.81 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Module:RaspberryPi_Pico_Common_Unspecified"
+			(at 130.81 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://datasheets.raspberrypi.com/pico/pico-datasheet.pdf"
+			(at 130.81 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Versatile and inexpensive microcontroller module powered by RP2040 dual-core Arm Cortex-M0+ processor up to 133 MHz, 264kB SRAM, 2MB QSPI flash; also supports Raspberry Pi Pico 2"
+			(at 130.81 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "31"
+			(uuid "ede3e92b-1542-439f-a450-fce1df5cb8bb")
+		)
+		(pin "30"
+			(uuid "dbcc4bd3-24c5-4358-aa72-7545baf5d1b5")
+		)
+		(pin "13"
+			(uuid "db76d99a-2cf4-4782-958e-01d758c9e515")
+		)
+		(pin "29"
+			(uuid "6fbf72b6-84b5-470c-8e4e-6e7246dc2ca5")
+		)
+		(pin "40"
+			(uuid "d4ac5e12-a382-4d67-a015-7baceb504873")
+		)
+		(pin "32"
+			(uuid "1be905b2-6cf8-4567-8533-b2bfa132729e")
+		)
+		(pin "15"
+			(uuid "d768182e-eab9-47c2-8262-3bc16acb9703")
+		)
+		(pin "37"
+			(uuid "fb5338a6-d131-4d54-9cf2-450fc9120178")
+		)
+		(pin "7"
+			(uuid "e5b3b565-dc82-4d23-8a6e-4926b67a2af2")
+		)
+		(pin "2"
+			(uuid "42657228-6cac-477c-89ba-2d721aa22d91")
+		)
+		(pin "1"
+			(uuid "6daa7193-cd0c-4563-9706-97cd35b6f9ad")
+		)
+		(pin "3"
+			(uuid "8a207c7f-2ed8-40da-b0af-543548f246f7")
+		)
+		(pin "6"
+			(uuid "aeac9164-2792-4765-8019-6b2bb79c9aed")
+		)
+		(pin "16"
+			(uuid "4134a33c-0ff6-4cae-8580-afd19a920e2c")
+		)
+		(pin "9"
+			(uuid "cf30cc08-433c-418c-ab3e-30a56b671790")
+		)
+		(pin "23"
+			(uuid "f3d5ee24-6561-4b08-9a23-43d9e0da3881")
+		)
+		(pin "11"
+			(uuid "db2af5e3-8706-4933-b154-51fbb82a2122")
+		)
+		(pin "22"
+			(uuid "ccb2aef4-1c15-4ea7-9444-2af896f4c6f9")
+		)
+		(pin "28"
+			(uuid "025859fa-5c92-4c64-8766-5fa48025129d")
+		)
+		(pin "26"
+			(uuid "392bdd56-d390-471b-9d98-087be8a22740")
+		)
+		(pin "24"
+			(uuid "a6e99b0c-832c-4f67-acd7-70ad6b5184f7")
+		)
+		(pin "27"
+			(uuid "69f7e149-500c-4d49-b655-ca9665840bac")
+		)
+		(pin "25"
+			(uuid "0f90de80-70d7-4054-82f0-51470d52e4b5")
+		)
+		(pin "10"
+			(uuid "ad935522-974c-49a6-8124-f08bd7649926")
+		)
+		(pin "19"
+			(uuid "100117e5-af52-478d-a834-50cc179892c5")
+		)
+		(pin "18"
+			(uuid "f1992038-1b1f-40ce-8134-a2891fc6e248")
+		)
+		(pin "39"
+			(uuid "a0c52897-74da-4c43-ac16-33a4bb049a33")
+		)
+		(pin "33"
+			(uuid "d3d4041a-2784-40e1-8ace-11c95cad5881")
+		)
+		(pin "35"
+			(uuid "4589bbdb-b7ea-4e13-9516-d882781796b2")
+		)
+		(pin "38"
+			(uuid "7fb2ad2b-a345-45f5-8e26-9d5d1dcd8553")
+		)
+		(pin "34"
+			(uuid "f2b5d14f-194e-4f69-b135-6675a4d5c168")
+		)
+		(pin "20"
+			(uuid "f5e5d59c-6761-4b44-b656-558f5b1f3357")
+		)
+		(pin "14"
+			(uuid "63903504-6962-483b-a2ce-ee9b03e29394")
+		)
+		(pin "12"
+			(uuid "a244bd64-bed9-45cd-ba67-593e7bdc1faa")
+		)
+		(pin "36"
+			(uuid "93462ba1-e6ba-45a5-b7fb-fb658bbe7cde")
+		)
+		(pin "17"
+			(uuid "038cc9f4-9051-4aca-8b8f-b44bb251fa8b")
+		)
+		(pin "8"
+			(uuid "027d5253-5f01-4420-8e6d-b1dfab20106a")
+		)
+		(pin "5"
+			(uuid "8941141a-df9c-4d2e-af8a-5c70b52b6caa")
+		)
+		(pin "4"
+			(uuid "01a0f101-0a9d-4920-88a9-cac7119a404f")
+		)
+		(pin "21"
+			(uuid "4bb6b51f-c043-47fe-bfbd-9b3dc096fbd7")
+		)
+		(instances
+			(project "MiniPicoPCB"
+				(path "/86644c21-3caa-4c6d-8c75-c0a1b6d5c30d"
+					(reference "A1")
 					(unit 1)
 				)
 			)
