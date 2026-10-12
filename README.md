@@ -26,12 +26,6 @@ As part of an educational project, the schematic and PCB are made with [KiCad](h
 
 Thanks to [AISLER](https://aisler.net) PCB manufacturer :eu:
 
-Useful plugins for KiCad :
-* AISLER Push for KiCad : https://github.com/aislerhq (with AISLER repository to always get the latest updates)
-* Interactive HTML BOM : https://github.com/openscopeproject/InteractiveHtmlBom
-* Board2Pdf : https://gitlab.com/dennevi/Board2Pdf
-* Solarized Dark Theme : https://github.com/pointhi/kicad-color-schemes
-
 Get a unique 10€ coupon code in <ins>your first order</ins> in [AISLER](https://aisler.net) with my referral code : `MakeInEurope-ECYPW` :heart:
 
 Thanks to "Jimmi Henry" for his 3D libraries (including this PCB Terminal Blocks)  in [GRABCAD Community](https://grabcad.com/jimmi.henry-1) in the [kicad/imports](kicad/imports) folder. 
